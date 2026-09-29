@@ -34,7 +34,7 @@ The analysis included:
 ## Repository Files
 - [`housing_price_code.r`](housing_price_analysis.r) - R code used for data preparation, visualization, regression modeling, diagnostics, predictions, and model comparison
 - [`housing_price_report.pdf`](housing_price_report.pdf) - Technical summary report containing the analysis, results, visualizations, interpretations, and limitations
-- [`housing_price_notebook.html`](housing_price_notebook.html) - HTML notebook preserving the complete code and original outputs
+- [`housing_price_notebook.html`](housing_price_notebook.html) = [`housing_price_notebook.pdf`](housing_price_notebook.pdf) - HTML notebook and its associated PDF preserving the complete code and original outputs
 
 ## Tools
 - R
