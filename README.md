@@ -4,14 +4,26 @@
 This project examines relationships between housing characteristics and sale prices using multiple regression techniques in R. The analysis evaluates three models: a multiple regression model with quantitative and categorical predictors, a complete second-order model with linear, squared, and interaction terms, and a reduced model without the squared terms.
 The models are evaluated using correlation analysis, coefficients of determination, significance tests, residual diagnostics, prediction intervals, and a nested-model F-test.
 
-## Methods
-- Multiple linear regression with quantitative and categorical predictors
-- Interaction effects
-- Quadratic regression
-- Pearson correlation analysis
-- Residual and normal Q-Q diagnostics
-- Confidence and prediction intervals
-- Nested-model F-test
+## Analysis
+
+The project includes three regression models:
+
+1. A multiple regression model predicting home prices using living area, upper-level living area, age, number of bathrooms, and view category.
+2. A complete second-order regression model using school rating, crime rate, their interaction, and quadratic terms for both predictors.
+3. A reduced regression model using school rating, crime rate, and their interaction, fitted for comparison with the complete second-order model.
+
+The analysis included:
+
+- Scatterplots and correlation analysis
+- Individual coefficient t-tests
+- Overall regression F-tests
+- R-squared and adjusted R-squared
+- Residual-versus-fitted plots
+- Normal probability plots of residuals
+- A nested-model F-test
+- Predicted home prices
+- Confidence intervals for average home prices
+- Prediction intervals for individual homes
 
 ## Key Findings
 - The first model used living area, upper-level area, age, bathrooms, and property view and explained approximately 60.3% of the observed variation in sale prices.
